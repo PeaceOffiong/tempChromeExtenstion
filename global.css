@@ -1,0 +1,69 @@
+.navShadow {
+  -webkit-box-shadow: 1px 2px 2px 0px rgb(239, 239, 239);
+  -moz-box-shadow: 1px 2px 2px 0px rgb(239, 239, 239);
+  box-shadow: 1px 2px 2px 0px rgb(239, 239, 239);
+}
+
+.popUpShadow {
+  -webkit-box-shadow: 1px 4px 4px 0px rgb(239, 239, 239);
+  -moz-box-shadow: 1px 6px 4px 0px rgb(230, 230, 230);
+  box-shadow: 1px 6px 6px 0px rgb(239, 239, 239);
+}
+
+.customScreen {
+  height: 100%;
+}
+
+svg,
+svg g {
+  height: inherit;
+  width: inherit;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Sora:wght@600&family=Work+Sans&display=swap");
+
+.primaryColor {
+  background-color: #120b48;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.popupSquare {
+  width: 250px;
+}
+
+.blank {
+  background-color: rgb(238, 238, 238);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.fontInter {
+  font-family: "Inter", sans-serif;
+}
+
+.fontWorkSans {
+  font-family: "Work Sans", sans-serif;
+}
+
+.fontSora {
+  font-family: "Work Sans", sans-serif;
+}
+
+.specP {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.key {
+  color: rgba(97, 97, 99, 1);
+}
+
+.features {
+  color: rgba(20, 20, 20, 1);
+}
