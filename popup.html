@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,79 +10,82 @@
     <link
         href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://unpkg.com/react-icons@3.13.0/umd/react-icons.min.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/react-icons@4/umd/react-icons.development.js"></script>
     <title>HelpMeOut</title>
 </head>
-<body>
 
+<body>
     <div class="p-6 popUpShadow w-72 rounded-2xl h-auto flex flex-col gap-4 ">
         <div class="flex items-center justify-between">
             <div class="flex items-center h-full gap-2 cursor-pointer fontInter ">
-                <img src="logo192.png" alt="logo"  class="h-7 w-7">
+                <img src="logo192.png" alt="logo" class="h-7 w-7">
                 <b>HelpMeOut</b>
             </div>
             <div class="flex items-center gap-2 cursor-pointer">
-            <i class="material-icons-outlined">settings</i>
-            <i class="material-icons-outlined">cancel</i>
+                <i class="material-icons-outlined">settings</i>
+                <i class="material-icons-outlined">cancel</i>
             </div>
+
+        
         </div>
-    
+
         <div>
             <p class="text-base specP fontWorkSans">
-                This extention helps you record and share help videos with ease.
+                This extension helps you record and share help videos with ease.
             </p>
             <div class="flex py-4 items-center justify-center gap-2">
                 <div class="flex flex-col items-center justify-center ">
-                    <i class="material-icons-outlined  text-4xl cursor-pointer">jamboardkiosk</i>
+                    <i class="fas fa-desktop text-4xl cursor-pointer"></i>
                     <p>Full Screen</p>
                 </div>
-    
+
                 <div class="flex flex-col items-center justify-center">
-                    <HiOutlineSquare2Stack class="text-4xl cursor-pointer" />
+                    <i class="fas fa-window-maximize text-4xl cursor-pointer"></i>
                     <p>Current Tab</p>
                 </div>
             </div>
         </div>
         <div class="flex flex-col gap-4">
             <div class="flex items-center justify-between border-2 border-black rounded-xl h-12 p-4">
-                <div className="flex gap-2 items-center ">
-                    <div className="text-xl fontInter">
-                        <AiOutlineVideoCamera />
-                    </div>
+                <div class="flex gap-2 items-center ">
+                    <i class="fas fa-video text-xl"></i>
                     <p>
                         <b>Camera</b>
                     </p>
                 </div>
                 <div class="text-2xl">
-                    <BsToggleOn />
+                    <i class="fas fa-toggle-on"></i>
                 </div>
             </div>
-    
+
             <div class="flex items-center justify-between border-2 border-black rounded-xl h-12 p-4 ">
                 <div class="flex gap-2 fontInter">
-                    <div class="text-2xl">
-                        <HiOutlineMicrophone />
-                    </div>
+                    <i class="fas fa-microphone text-2xl"></i>
                     <p>
                         <b>Audio</b>
                     </p>
                 </div>
                 <div class="text-2xl">
-                    <BsToggleOn />
+                    <i class="fas fa-toggle-on"></i>
                 </div>
             </div>
-    
+
             <button
-                class="primaryColor h-14 p-4 flex text-white text-center items-center justify-center border-2 rounded-xl cursor-pointer" id="videoStart">Start
+                class="primaryColor h-14 p-4 flex text-white text-center items-center justify-center border-2 rounded-xl cursor-pointer"
+                id="videoStart">Start
                 Recording</button>
 
-                <button
-                    class="primaryColor h-14 p-4 flex text-white text-center items-center justify-center border-2 rounded-xl cursor-pointer"
-                    id="videoStop">Stop
-                    Recording</button>
+            <button
+                class="primaryColor h-14 p-4 flex text-white text-center items-center justify-center border-2 rounded-xl cursor-pointer"
+                id="videoStop">Stop
+                Recording</button>
         </div>
     </div>
-
-    <script src="./js/popup.js"></script>
 </body>
+
 </html>
+
